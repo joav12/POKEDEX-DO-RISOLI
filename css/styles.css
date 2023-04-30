@@ -9,7 +9,7 @@ body{
     grid-template-columns: auto auto auto auto auto;
     padding: 20px;
     background-color: rgb(243, 243, 243);
-    border-radius: 15px;
+    border-radius: 15px 15px 0 0;
 }
 
 #pokedex{
@@ -137,4 +137,15 @@ img{
 
 #desc{
     padding: 10px;
+}
+
+#butao{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 243, 243);
+    padding: 10px;
+}
+
+#butao button{
+    margin-top: -20px;
 }
